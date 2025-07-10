@@ -44,6 +44,7 @@ body{
     justify-content: center;
     min-height: 60vh;
     padding: 2rem 3rem;
+    margin-bottom: 3rem;
 }
 .main-top p{
     color: #fff;
