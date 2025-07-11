@@ -172,3 +172,7 @@ button{
     color: white;
     background-color: #276543;
 }
+.text-container div p::before{
+    content: url(/assets/icons8-check-mark.svg);
+    vertical-align: middle;
+}
