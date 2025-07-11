@@ -125,3 +125,34 @@ button{
     color: #121212;
     font-size: 0.8rem;
 }
+/* Bottom Section */
+
+.bottom{
+    min-height: 100%;
+    background: url(/assets/pine-watt-2Hzmz15wGik-unsplash.jpg) rgba(2, 63, 34, 0.792);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    color: white;
+}
+/* Bottom-Inner */
+.bottom-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 6rem ;
+}
+.bottom-inner div{
+    flex: 1;
+}
+.img-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.img-container img{
+    max-width: 100%;
+}
+.text-container :first-child{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
