@@ -152,7 +152,23 @@ button{
 .img-container img{
     max-width: 100%;
 }
-.text-container :first-child{
-    font-size: 1.5rem;
+.foot-head{
+    width: 80%;
+    font-size: 2rem;
     font-weight: lighter;
+    margin: 0;
+}
+.foot-description{
+    font-size: 0.9rem;
+}
+.text-container{
+    padding-bottom: 3rem;
+}
+.text-container div p{
+    font-size: 1.2rem;
+}
+.text-container div button{
+    border: 0;
+    color: white;
+    background-color: #276543;
 }
