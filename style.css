@@ -163,6 +163,7 @@ button{
 }
 .text-container{
     padding-bottom: 3rem;
+    min-width: 0;
 }
 .text-container div p{
     font-size: 1.2rem;
@@ -175,4 +176,5 @@ button{
 .text-container div p::before{
     content: url(/assets/icons8-check-mark.svg);
     vertical-align: middle;
+    margin-right: 1rem;
 }
