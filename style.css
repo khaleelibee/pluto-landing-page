@@ -163,7 +163,6 @@ button{
 }
 .text-container{
     padding-bottom: 3rem;
-    min-width: 0;
 }
 .text-container div p{
     font-size: 1.2rem;
@@ -178,3 +177,39 @@ button{
     vertical-align: middle;
     margin-right: 1rem;
 }
+
+
+
+@media only screen and (max-width: 850px) {
+    .main-top{
+        align-items: center;
+        text-align: center;
+    }
+    .main-top p:first-child{
+        font-size: 1.5rem;
+    }
+    .p-bold{
+        font-size: 0.7rem;
+    }
+    .mid-container{
+        margin: 2rem 1rem;
+    }
+    .grid-row{
+        margin: 2rem 0;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .bottom-inner{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .img-container{
+       display: none;
+    }
+    .text-container div button{
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
